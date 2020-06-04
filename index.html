@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>Coffee Shop</title>
+    <!--main.css-->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome -->
+    <script src="js/all.js"></script>
+</head>
+
+<body>
+    <!--  pre loader -->
+    <div class="preloader">
+        <img src="images/Bean.gif" alt="logo" class="preloader__item">
+    </div>
+
+
+    <!--  end pre loader -->
+    <!--Header-->
+    <header class="header" id="header">
+        <!--Banner-->
+        <div class="banner">
+            <h1 class="banner__title bell-fonts">coffee junkin</h1>
+            <div class="banner__icons">
+                <a href="" class="banner__social-icon">
+                    <i class="fab fa-facebook fa-fw"></i>
+                </a>
+                <a href="" class="banner__social-icon">
+                    <i class="fab fa-twitter fa-fw"></i>
+                </a>
+                <a href="" class="banner__social-icon">
+                    <i class="fab fa-instagram fa-fw"></i>
+                </a>
+                <a href="" class="banner__social-icon">
+                    <i class="fab fa-google-plus fa-fw"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--Banner-->
+
+        <!-- vedio-->
+        <article class="video__container">
+            <video class="video__item" autoplay muted loop>
+                <source src="vedios/Coffe-bg.mp4" type"video/mp4">
+                <source src="vedios/Coffe-bg.ogv" type"video/ogv">
+                <source src="vedios/Coffe-bg.webm" type"video/webm">
+                Your browser does not support video tag
+            </video>
+        </article>
+
+        <!--navbar-->
+        <div class="navBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!--nav-->
+
+        <nav class="nav">
+            <ul class="nav__links">
+                <li>
+                    <a href="" class="nav__single-link nav__logo"> <img src="images/logo.jpg "
+                            style="border-radius: 25%; border: 1px solid lightyellow;" alt="logo" height="30%"
+                            width="70%" style=" padding-left: 30px;"></a>
+                </li>
+                <li>
+                    <a href="#header" class="nav__single-link">HOME</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav__single-link">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#drink" class="nav__single-link">FREE DRINK</a>
+                </li>
+                <li>
+                    <a href="#work" class="nav__single-link">WORK</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav__single-link">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- vedio switch-->
+        <div class="video__switch-container">
+            <div class="video__switch">
+                <span>on</span>
+                <span>off</span>
+                <div class="video__switch-btn"></div>
+            </div>
+        </div>
+    </header>
+    <!--Header-->
+    <!-- About -->
+    <section class="about section-padding" id="about">
+        <div class="grid-container grid-container--medium-2">
+            <!--About-->
+            <article class="about-container">
+                <!-- firsty child -->
+                <div class="section-title">
+                    <h1 class="section-title__name bell-fonts">our story</h1>
+                    <div class="section-title__underline"></div>
+                    <div class="section-title__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+                        tenetur, optio ipsa, omnis possimus blanditiis ullam est, sequi praesnentium voluptatibus
+                        voluptatem magni autem neque perferendis aliquid unde rerum excepturi vitae.
+                    </div>
+                </div>
+                <!-- second child -->
+                <div class="about__img">
+                    <img src="images/cofe2.jpg" class="about__img-item" alt="coffee">
+                </div>
+            </article>
+            <article class="about-container">
+                <!-- firsty child -->
+                <div class="section-title">
+                    <h1 class="section-title__name bell-fonts">what we do</h1>
+                    <div class="section-title__underline"></div>
+                    <div class="section-title__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+                        tenetur, optio ipsa, omnis possimus blanditiis ullam est, sequi praesnentium voluptatibus
+                        voluptatem magni autem neque perferendis aliquid unde rerum excepturi vitae.
+                    </div>
+                </div>
+                <!-- second child -->
+                <div class="about__img about__img-special">
+                    <img src="images/Coffee 1.jpg " class="about__img-item" alt="coffee">
+                </div>
+
+            </article>
+        </div>
+    </section>
+    <!--End section-->
+
+    <!--Free coffee-->
+    <section class="drink section-padding" id="drink">
+        <div class="grid-container">
+            <!--first child-->
+            <form action="" class="drink-form">
+                <p class="drink-form__feedback">some text</p>
+                <h3 class="drink-form__title bell-fonts">to get free drinks</h3>
+                <div class="drink-form__input">
+                    <input type="text" name="" id="" maxlength="15" class="input-name" placeholder="Name">
+                </div>
+                <div class="drink-form__input">
+                    <input type="text" name="" id="" maxlength="15" class="input-lastname" placeholder="Last Name">
+                </div>
+                <div class="drink-form__input">
+                    <input type="email" name="" id="" maxlength="30" class="input-email" placeholder="Email">
+                </div>
+                <input type="submit" value="Sign Up" class="input-submit">
+            </form>
+            <!-- second child -->
+            <article class="drink-card">
+                <h3 class="drink-card__title bell-fonts">lucky people:</h3>
+                <!-- <div class="drink-card__list">
+                    <div class="person">
+                        <img src="images/person.jpg" height="150%" alt="person" class="person__thumbail">
+                        <h4 class="person__name">adil</h4>
+                        <h4 class="person__last-name">ahmed</h4>
+                    </div>
+                    <div class="person">
+                        <img src="images/person.jpg" height="150%" alt="person" class="person__thumbail">
+                        <h4 class="person__name">adil</h4>
+                        <h4 class="person__last-name">ahmed</h4>
+                    </div>
+                    <div class="person">
+                        <img src="images/person.jpg" height="150%" alt="person" class="person__thumbail">
+                        <h4 class="person__name">adil</h4>
+                        <h4 class="person__last-name">ahmed</h4>
+                    </div>
+                </div> -->
+            </article>
+
+        </div>
+    </section>
+    <!--work-->
+    <section class="work section-padding" id="work">
+
+        <div class="section-title section-title--left">
+            <h1 class="section-title__name bell-fonts">our work</h1>
+            <div class="section-title__underline"></div>
+        </div>
+        <div class="work-container">
+            <article class="work-item item-1">
+                <img src="images/1.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="1">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-2">
+                <img src="images/2.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="2">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-3">
+                <img src="images/3.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="3">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-4">
+                <img src="images/4.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="4">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-5">
+                <img src="images/5.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="5">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-6">
+                <img src="images/6.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="6">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-7">
+                <img src="images/7.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="7">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-8">
+                <img src="images/8.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="8">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <article class="work-item item-9">
+                <img src="images/9.jpg" alt="work" class="work-item__img">
+                <a href="#" class="work-item__icon" date-id="9">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+        </div>
+
+        <div class="work-modal">
+            <div class="work-modal__item"></div>
+            <div class="work-modal__close">
+                <i class="fas fa-window-close"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact section-padding" id="contact">
+
+        <div class="section-title section-title--left">
+            <h1 class="section-title__name bell-fonts">our work</h1>
+            <div class="section-title__underline"></div>
+        </div>
+
+        <div class="contact-container">
+            <iframe class="contact-map" src="https://www.google.com/maps/d/embed?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA&hl=en"
+                width="100%" height="480"></iframe>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-item__icon">
+                        <i class="fas fa-map-pin"></i>
+                    </div>
+                    <h2 class="contact-item__title">address</h2>
+                    <p class="contact-item__text">738 x coffee street, expo karachi.</p>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item__icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h2 class="contact-item__title">support</h2>
+                    <p class="contact-item__text"><span><i class="fas fa-phone"></i></span>
+                        +92 307 2349 804</p>
+                    <p class="contact-item__text">
+                        <span><i class="fas fa-envelope"></i></span>
+                        usamaaltaf782@gmail.com
+                    </p>
+
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item__icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h2 class="contact-item__title">work time</h2>
+                    <p class="contact-item__text">monday  -  friday  8.00am - 8.00pm</p>
+                    <p class="contact-item__text">saturday  -  sunday  9.00am - 10pm</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
